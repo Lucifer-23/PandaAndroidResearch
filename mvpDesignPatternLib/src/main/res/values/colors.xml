@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_panda_mvp_design_pattern_lib_alert">#CC0000</color>
+    <color name="color_panda_mvp_design_pattern_lib_confirm">#FF8800</color>
+    <color name="color_panda_mvp_design_pattern_lib_info">#669900</color>
+</resources>

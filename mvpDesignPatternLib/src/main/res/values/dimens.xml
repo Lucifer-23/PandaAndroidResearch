@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- view size -->
+    <dimen name="dimens_8dp">8dp</dimen>
+    <dimen name="dimens_10dp">10dp</dimen>
+    <dimen name="dimens_20dp">20dp</dimen>
+    <dimen name="dimens_45dp">45dp</dimen>
+    <dimen name="dimens_48dp">48dp</dimen>
+
+    <!-- text size -->
+    <dimen name="dimens_14sp">14sp</dimen>
+    <dimen name="dimens_16sp">16sp</dimen>
+</resources>
