@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="styleable_panda_mvp_design_pattern_lib_title_view">
+        <attr name="attr_show_left_icon" format="boolean" />
+        <attr name="attr_view_left_icon" format="reference" />
+        <attr name="attr_show_right_icon" format="boolean" />
+        <attr name="attr_right_icon" format="reference" />
+        <attr name="attr_title_text_color" format="color" />
+    </declare-styleable>
+</resources>

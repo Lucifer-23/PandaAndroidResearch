@@ -1,0 +1,42 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+        uat {
+            minifyEnabled false
+        }
+    }
+}
+
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+
+    api "androidx.appcompat:appcompat:$appCompatVersion"
+    api "androidx.core:core-ktx:$coreKtxVersion"
+    api "androidx.constraintlayout:constraintlayout:$constraintLayoutVersion"
+
+    // RecycleView
+    api "androidx.recyclerview:recyclerview:$recyclerViewVersion"
+    // AdapterHelper
+    api "com.github.CymChad:BaseRecyclerViewAdapterHelper:$baseRecyclerViewAdapterHelperVersion"
+}
