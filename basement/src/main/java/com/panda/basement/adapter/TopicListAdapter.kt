@@ -1,11 +1,11 @@
-package com.panda.android.research.adapter
+package com.panda.basement.adapter
 
 import android.content.Context
 import android.graphics.Typeface
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.BaseViewHolder
-import com.panda.android.research.R
-import com.panda.android.research.bean.TopicBean
+import com.panda.basement.R
+import com.panda.basement.bean.TopicBean
 
 class TopicListAdapter(context: Context) :
     BaseQuickAdapter<TopicBean, BaseViewHolder>(R.layout.layout_item_topic_list) {

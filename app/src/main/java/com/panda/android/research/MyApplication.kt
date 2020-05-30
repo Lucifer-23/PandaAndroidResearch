@@ -4,6 +4,8 @@ import com.elvishew.xlog.LogLevel
 import com.elvishew.xlog.XLog
 import com.panda.android.research.mvp.componet.AppComponent
 import com.panda.android.research.mvp.componet.DaggerAppComponent
+import com.panda.custom.view.research.CustomViewResearchApplication
+//import com.panda.custom.view.research.CustomViewResearchApplication
 import com.panda.mvp.design.pattern.base.AbstractMvpApplication
 import com.panda.mvp.design.pattern.base.module.AppModule
 import com.panda.touch.event.research.TouchEventResearchApplication
@@ -29,6 +31,7 @@ class MyApplication : AbstractMvpApplication() {
 
         // Initialized modules
         TouchEventResearchApplication().init(this)
+        CustomViewResearchApplication().init(this)
     }
 
     override fun initInMainProcess() {

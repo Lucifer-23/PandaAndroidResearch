@@ -13,7 +13,7 @@ import kotlinx.android.synthetic.main.layout_activity_main.*
 class MainActivity : BaseMvpActivity<MainActivityPresenter>(), MainActivityView {
 
     override fun initData() {
-        mPresenter.setAdapter(id_layout_activity_main_topics_list)
+        mPresenter.setAdapter(id_layout_activity_main_topics_list, "topicList.json")
     }
 
     override fun getLayoutId(): Int {

@@ -2,5 +2,9 @@
   {
     "topic": "TouchEvent",
     "componentName": "com.panda.touch.event.research.activity.TouchEventResearchEntranceActivity"
+  },
+  {
+    "topic": "CustomView",
+    "componentName": "com.panda.custom.view.research.activity.CustomViewResearchEntranceActivity"
   }
 ]
