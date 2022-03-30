@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.panda.mvp.design.pattern.widget.TitleView
+        android:id="@+id/id_aes_encrypt_research_title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:attr_show_left_icon="true"
+        app:attr_view_left_icon="@mipmap/mipmap_aes_encrypt_research_ic_back" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/id_layout_activity_aes_encrypt_research_entrance_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</LinearLayout>
